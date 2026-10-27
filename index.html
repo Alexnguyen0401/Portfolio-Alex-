@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1554ee">
+  <meta name="description" content="An Nguyen — Video Editor / Digital Archive. Social, TikTok viral, product, event recap and documentary projects.">
+  <title>An Nguyen — Video Editor / Digital Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky-grain" aria-hidden="true"></div>
+  <div class="cloudscape cloudscape-a" aria-hidden="true"></div>
+  <div class="cloudscape cloudscape-b" aria-hidden="true"></div>
+  <div class="cloudscape cloudscape-c" aria-hidden="true"></div>
+  <div class="spark spark-a" aria-hidden="true">✦</div>
+  <div class="spark spark-b" aria-hidden="true">✧</div>
+  <div class="cityline" aria-hidden="true"></div>
+
+  <main class="desktop">
+    <header class="top-window">
+      <div class="titlebar">
+        <div class="folder-icon mini"><span></span></div>
+        <strong>AN. NGUYEN</strong><span class="pipe">|</span><span>VIDEO EDITOR / DIGITAL ARCHIVE</span>
+        <div class="window-buttons" aria-hidden="true"><i>−</i><i>□</i><i>×</i></div>
+      </div>
+      <nav class="navigation" aria-label="Main navigation">
+        <a class="active" href="#home" data-home-link>HOME</a><a href="#work">WORK</a><a href="#about" data-open-about>ABOUT</a><a href="#contact">CONTACT</a>
+        <span class="clock" id="clock">DIGITAL ARCHIVE · 2026</span>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="micro-label">VIDEO EDITOR <span>/</span> STORYTELLER</div>
+        <h1>MY<br>CREATIVE<br>FILES<span class="cursor">_</span></h1>
+        <p class="hero-slogan">I EDIT VIDEOS INTO STORIES PEOPLE REMEMBER.</p>
+        <p class="hero-tags">Social <b>·</b> TikTok Viral <b>·</b> Product Video <b>·</b> Event Recap <b>·</b> Documentary</p>
+      </div>
+
+      <div class="hero-art">
+        <div class="paper-stack stack-one"></div><div class="paper-stack stack-two"></div><div class="paper-stack stack-three"></div>
+        <figure class="polaroid">
+          <img src="assets/an-nguyen-portrait.jpg" alt="An Nguyen wearing a blue denim jacket and white hoodie">
+          <figcaption>AN. NGUYEN :)</figcaption>
+        </figure>
+        <div class="speech">GOOD<br>VIDEOS<br>BETTER<br>PEOPLE</div>
+        <button class="about-launch" type="button" data-open-about><span class="about-launch-icon">▣</span> ABOUT_ME.exe <span>↗</span></button>
+        <a class="contact-card" href="mailto:annguyen.alex0401@gmail.com"><span class="contact-card-icon">✉</span><span><small>CONTACT ME</small><strong>annguyen.alex0401@gmail.com</strong></span><b>↗</b></a>
+        <div class="quick-folders" aria-label="Project folders">
+          <button data-open-folder="social"><span class="folder-icon"><span></span></span><strong>SOCIAL</strong><b>›</b></button>
+          <button data-open-folder="tiktok"><span class="folder-icon"><span></span></span><strong>TIKTOK VIRAL</strong><b>›</b></button>
+          <button data-open-folder="product"><span class="folder-icon"><span></span></span><strong>PRODUCT VIDEO</strong><b>›</b></button>
+          <button data-open-folder="event"><span class="folder-icon"><span></span></span><strong>EVENT RECAP</strong><b>›</b></button>
+          <button data-open-folder="documentary"><span class="folder-icon"><span></span></span><strong>DOCUMENTARY</strong><b>›</b></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-window" id="work">
+      <div class="section-bar"><span class="folder-icon"><span></span></span><h2>SELECTED PROJECTS</h2><span class="bar-line"></span><div class="window-buttons small" aria-hidden="true"><i>−</i><i>□</i><i>×</i></div></div>
+      <div class="folder-grid">
+        <button class="project-folder social-folder" data-open-folder="social" aria-label="Open Social projects">
+          <span class="folder-tab"></span><img class="folder-art" src="assets/folder-social.png" alt="Pixel art Social folder illustration"><span class="folder-label"><strong>SOCIAL</strong><small>SHORT-FORM / SOCIAL CONTENT</small></span>
+        </button>
+        <button class="project-folder tiktok-folder" data-open-folder="tiktok" aria-label="Open TikTok Viral projects">
+          <span class="folder-tab"></span><img class="folder-art" src="assets/folder-tiktok-viral.png" alt="Blue pixel art TikTok viral folder with short-video icons"><span class="folder-label"><strong>TIKTOK VIRAL</strong><small>COMEDY / TRENDING CLIPS</small></span>
+        </button>
+        <button class="project-folder product-folder" data-open-folder="product" aria-label="Open Product projects">
+          <span class="folder-tab"></span><img class="folder-art" src="assets/folder-product.png" alt="Pixel art generic product folder illustration"><span class="folder-label"><strong>PRODUCT</strong><small>PRODUCT / COMMERCIAL</small></span>
+        </button>
+        <button class="project-folder event-folder" data-open-folder="event" aria-label="Open Event Recap projects">
+          <span class="folder-tab"></span><img class="folder-art" src="assets/folder-event-recap.png" alt="Pixel art event recap folder illustration"><span class="folder-label"><strong>EVENT RECAP</strong><small>HIGHLIGHTS / EVENTS</small></span>
+        </button>
+        <button class="project-folder documentary-folder" data-open-folder="documentary" aria-label="Open Documentary projects">
+          <span class="folder-tab"></span><img class="folder-art" src="assets/folder-documentary.png" alt="Pixel art documentary folder illustration"><span class="folder-label"><strong>DOCUMENTARY</strong><small>PEOPLE / PLACES / STORIES</small></span>
+        </button>
+      </div>
+    </section>
+
+    <footer id="contact"><span>© AN.NGUYEN · VIDEO EDITOR / DIGITAL ARCHIVE</span><a href="mailto:annguyen.alex0401@gmail.com">annguyen.alex0401@gmail.com</a><a href="#home">BACK TO TOP ↑</a></footer>
+  </main>
+
+  <div class="about-modal" id="about-modal" aria-hidden="true">
+    <div class="backdrop" data-close-about></div>
+    <section class="about-dialog" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <header class="dialog-titlebar"><span class="folder-icon"><span></span></span><h2 id="about-title">ABOUT_ME.exe</h2><button class="close" data-close-about aria-label="Close About window">×</button></header>
+      <div class="about-content">
+        <div class="about-profile"><figure class="about-polaroid"><img src="assets/an-nguyen-portrait.jpg" alt="An Nguyen wearing a blue denim jacket and white hoodie"><figcaption>AN. NGUYEN :)</figcaption></figure><strong>AN NGUYEN</strong><span>VIDEO EDITOR / CREATOR</span><a class="cv-button" href="#contact" data-close-about>CONTACT ↗</a></div>
+        <div class="about-copy"><h3>Hi, I’m An Nguyen.</h3><p>Video editor and storyteller with an interest in visual rhythm, sound design, and thoughtful storytelling.</p><p>From short-form branded content to event recaps and documentary projects, I enjoy shaping raw footage into videos with a clear purpose and a distinct visual feel.</p><div class="cv-grid"><div><h4>EXPERIENCE</h4><p><b>Vzone Media</b><br>Video Creator / Assistant Camera</p><p><b>O6 Studio</b><br>Livestream Technician</p><p><b>Global Ecokids</b><br>Video Editor · Filming and event recaps</p></div><div><h4>EDUCATION</h4><p><b>University of Economics Ho Chi Minh City</b><br>Business English</p><h4>TOOLS & SKILLS</h4><p>Video Editing · Camera · Livestream · Scriptwriting · Post-production</p><p>Premiere Pro · CapCut · After Effects · DaVinci Resolve</p></div></div></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal" id="folder-modal" aria-hidden="true">
+    <div class="backdrop" data-close-folder></div>
+    <section class="folder-dialog" role="dialog" aria-modal="true" aria-labelledby="folder-title">
+      <header class="dialog-titlebar"><span class="folder-icon"><span></span></span><h2 id="folder-title">SOCIAL</h2><button class="close" data-close-folder aria-label="Close folder">×</button></header>
+      <div class="dialog-body"><p id="folder-description"></p><div class="video-grid" id="video-grid"></div></div>
+    </section>
+  </div>
+
+  <div class="player-modal" id="player-modal" aria-hidden="true">
+    <div class="backdrop" data-close-player></div>
+    <section class="player-dialog" role="dialog" aria-modal="true" aria-label="Video player">
+      <header class="dialog-titlebar"><span class="folder-icon"><span></span></span><strong id="player-title">NOW PLAYING</strong><button class="close" data-close-player aria-label="Close video">×</button></header>
+      <div id="player-frame" class="player-frame horizontal"></div>
+      <div class="player-toolbar"><button type="button" id="previous-video" disabled>◀ PREVIOUS</button><span id="player-count">01 / 01</span><button type="button" id="next-video" disabled>NEXT ▶</button><button type="button" id="toggle-playlist">PLAYLIST ☷</button></div>
+      <div class="player-playlist" id="player-playlist" hidden></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
